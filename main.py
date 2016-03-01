@@ -11,7 +11,7 @@ def main():
 	if input == 'square':
 		square()
 	if input == 'rectangle':
-		rectangle()
+		square()
 	if input == 'trapezoid':
 		trapezoid()
 
@@ -31,14 +31,6 @@ def circle():
 	exit()
 
 def square():
-	pedestal = input("Pedestal: ")
-	height = input("Height: ")
-
-	result = pedestal * height
-	print "Result:", result
-	exit()
-
-def rectangle():
 	pedestal = input("Pedestal: ")
 	height = input("Height: ")
 
