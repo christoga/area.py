@@ -12,6 +12,8 @@ def main():
 		square()
 	if input == 'rectangle':
 		rectangle()
+	if input == 'trapezoid':
+		trapezoid()
 
 def triangle():
 	pedestal = input("Pedestal: ")
@@ -43,6 +45,15 @@ def rectangle():
 	result = pedestal * height
 	print "Result:", result
 	exit()
+
+def trapezoid():
+	width_1 = input("First width: ")
+	width_2 = input("Second width: ")
+	width = width_1 + width_2
+	height = input("Vertical width: ")
+
+	result = width / 0.5 * height
+	print "Result: ", result
 
 def exit():
 	exit = raw_input("Again? [y]Yes or [n]No: ")
