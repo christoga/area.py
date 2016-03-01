@@ -10,6 +10,8 @@ def main():
 		circle()
 	if input == 'square':
 		square()
+	if input == 'rectangle':
+		rectangle()
 
 def triangle():
 	pedestal = input("Pedestal: ")
@@ -32,7 +34,15 @@ def square():
 
 	result = pedestal * height
 	print "Result:", result
-	exit()	
+	exit()
+
+def rectangle():
+	pedestal = input("Pedestal: ")
+	height = input("Height: ")
+
+	result = pedestal * height
+	print "Result:", result
+	exit()
 
 def exit():
 	exit = raw_input("Again? [y]Yes or [n]No: ")
