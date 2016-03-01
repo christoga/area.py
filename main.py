@@ -10,14 +10,14 @@ def main():
 		circle()
 
 def triangle():
-	pedestal = input("Insert triangle pedestal ")
-	height = input("Insert triangle height ")
+	pedestal = input("Pedestal: ")
+	height = input("Height: ")
 
 	result = pedestal * height / 2
 	print "Result:", result
 
 def circle():
-	radiant = input("Insert the radiant ")
+	radiant = input("Radiant: ")
 
 	result = radiant * 2 / 3.14
 	print "Result:", result
