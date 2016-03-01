@@ -3,8 +3,9 @@ This script came when I'm learning logical algorithm, That is the reason why I c
 This python script is useful for counting the area of a shape😏
 
 ## Shape
-For now, triangle is the only available shape,
-Gonna add some more (tomorrow)😁
+* Triangle
+* Circle
+
 
 ## To Use
 ```shell
