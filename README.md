@@ -5,6 +5,9 @@ This python script is useful for counting the area of a shape😏
 ## Shape
 * Triangle
 * Circle
+* Square
+* Rectangle
+* Trapezoid
 
 
 ## To Use
