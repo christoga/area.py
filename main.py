@@ -6,14 +6,16 @@ def main():
 
 	if input == 'triangle':
 		triangle()
-	if input == 'circle':
+	elif input == 'circle':
 		circle()
-	if input == 'square':
+	elif input == 'square':
 		square()
-	if input == 'rectangle':
+	elif input == 'rectangle':
 		square()
-	if input == 'trapezoid':
+	elif input == 'trapezoid':
 		trapezoid()
+	else:
+		print  'Shape is not available'
 
 def triangle():
 	pedestal = input("Pedestal: ")
