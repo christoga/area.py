@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import time
+import math
 
 def main():
 	input = raw_input("What's the shape? ")
