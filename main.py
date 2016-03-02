@@ -29,7 +29,7 @@ def triangle():
 def circle():
 	radiant = input("Radiant: ")
 
-	result = radiant * 2 / 3.14
+	result = radiant * 2 / math.pi
 	print "Result:", result
 	exit()
 
