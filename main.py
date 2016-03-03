@@ -29,7 +29,8 @@ def triangle():
 def circle():
 	radiant = input("Radiant: ")
 
-	result = radiant * 2 / math.pi
+	ceil = radiant * 2 / math.pi
+	result = math.ceil(ceil)
 	print "Result:", result
 	exit()
 
