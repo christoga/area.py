@@ -56,6 +56,7 @@ def exit():
 	if exit == 'y':
 		main()
 	if exit == 'n':
+		print 'Goodbye! '
 		time.sleep(0.1)
 
 
