@@ -22,6 +22,9 @@ def main():
 	else:
 		print  'Shape is not available'
 
+def init(self):
+	pass
+
 def triangle():
 	'''
 	Area of the triangle
