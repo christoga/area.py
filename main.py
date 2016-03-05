@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import time
 import math
+__author__ = 'Andre Christoga'
 
 def main():
 	input = raw_input("What's the shape? ")
