@@ -50,6 +50,7 @@ def trapezoid():
 
 	result = width / 0.5 * height
 	print "Result: ", result
+	exit()
 
 def exit():
 	exit = raw_input("Again? [y]Yes or [n]No: ")
