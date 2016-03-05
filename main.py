@@ -4,6 +4,9 @@ import math
 __author__ = 'Andre Christoga'
 
 def main():
+	'''
+	Area of the shape
+	'''
 	input = raw_input("What's the shape? ")
 
 	if input == 'triangle':
@@ -20,6 +23,9 @@ def main():
 		print  'Shape is not available'
 
 def triangle():
+	'''
+	Area of the triangle
+	'''
 	pedestal = input("Pedestal: ")
 	height = input("Height: ")
 
@@ -28,6 +34,9 @@ def triangle():
 	exit()
 
 def circle():
+	'''
+	Area of the circle
+	'''
 	radiant = input("Radiant: ")
 
 	ceil = radiant * 2 / math.pi
@@ -36,6 +45,9 @@ def circle():
 	exit()
 
 def square():
+	'''
+	Area of the square
+	'''
 	pedestal = input("Pedestal: ")
 	height = input("Height: ")
 
@@ -44,6 +56,9 @@ def square():
 	exit()
 
 def trapezoid():
+	'''
+	Area of the trapezoid
+	'''
 	width_1 = input("First width: ")
 	width_2 = input("Second width: ")
 	width = width_1 + width_2
@@ -54,6 +69,9 @@ def trapezoid():
 	exit()
 
 def exit():
+	'''
+	Exit program
+	'''
 	exit = raw_input("Again? [y]Yes or [n]No: ")
 	if exit == 'y':
 		main()
